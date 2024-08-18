@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Sedan:ital@0;1&family=Sen:wght@400..800&family=Silkscreen:wght@400;700&family=Ultra&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="root-body">
+        <div class="body">
+            <div class="container">
+                <div class="upper-container">
+
+                    <div class="inputs" id="date-input">
+                        <label for="day">Day</label>
+                        <input type="text" name="day" id="day">
+                        <p>Must be a valid day</p>
+                    </div>
+                    <div class="inputs" id="month-input">
+                        <label for="month">Month</label>
+                        <input type="text" name="month" id="month">
+                        <p>Must be a valid month</p>
+                    </div>
+                    <div class="inputs" id="year-input">
+                        <label for="year">Year</label>
+                        <input type="text" name="year" id="year">
+                        <p>Must be a valid year</p>
+                    </div>
+
+                </div>
+                <div class="line"></div>
+                <div class="lower-container">
+
+                    <div class="years">
+                        <p><span id='years-span'>--</span> Years</p>
+                    </div>
+                    <div class="months">
+                        <p><span id='months-span'>--</span> Months</p>
+                    </div>
+                    <div class="days">
+                        <p><span id='days-span'>--</span> Days</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
